@@ -1,0 +1,226 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A95BB63F15A20CA8008AC4B3 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = A95BB63E15A20CA8008AC4B3 /* main.c */; };
+		A95BB64115A20CA8008AC4B3 /* KioskMode.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = A95BB64015A20CA8008AC4B3 /* KioskMode.1 */; };
+		A95BB64815A20CD6008AC4B3 /* ApplicationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A95BB64715A20CD6008AC4B3 /* ApplicationServices.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A95BB63815A20CA8008AC4B3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				A95BB64115A20CA8008AC4B3 /* KioskMode.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A95BB63A15A20CA8008AC4B3 /* KioskMode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = KioskMode; sourceTree = BUILT_PRODUCTS_DIR; };
+		A95BB63E15A20CA8008AC4B3 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		A95BB64015A20CA8008AC4B3 /* KioskMode.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = KioskMode.1; sourceTree = "<group>"; };
+		A95BB64715A20CD6008AC4B3 /* ApplicationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ApplicationServices.framework; path = ../../../../../../../../../../../Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks/ApplicationServices.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A95BB63715A20CA8008AC4B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A95BB64815A20CD6008AC4B3 /* ApplicationServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A95BB62F15A20CA7008AC4B3 = {
+			isa = PBXGroup;
+			children = (
+				A95BB63D15A20CA8008AC4B3 /* KioskMode */,
+				A95BB63B15A20CA8008AC4B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A95BB63B15A20CA8008AC4B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A95BB63A15A20CA8008AC4B3 /* KioskMode */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A95BB63D15A20CA8008AC4B3 /* KioskMode */ = {
+			isa = PBXGroup;
+			children = (
+				A95BB64715A20CD6008AC4B3 /* ApplicationServices.framework */,
+				A95BB63E15A20CA8008AC4B3 /* main.c */,
+				A95BB64015A20CA8008AC4B3 /* KioskMode.1 */,
+			);
+			path = KioskMode;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A95BB63915A20CA8008AC4B3 /* KioskMode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A95BB64415A20CA8008AC4B3 /* Build configuration list for PBXNativeTarget "KioskMode" */;
+			buildPhases = (
+				A95BB63615A20CA8008AC4B3 /* Sources */,
+				A95BB63715A20CA8008AC4B3 /* Frameworks */,
+				A95BB63815A20CA8008AC4B3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KioskMode;
+			productName = KioskMode;
+			productReference = A95BB63A15A20CA8008AC4B3 /* KioskMode */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A95BB63115A20CA7008AC4B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = Robotconscience;
+			};
+			buildConfigurationList = A95BB63415A20CA7008AC4B3 /* Build configuration list for PBXProject "KioskMode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A95BB62F15A20CA7008AC4B3;
+			productRefGroup = A95BB63B15A20CA8008AC4B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A95BB63915A20CA8008AC4B3 /* KioskMode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A95BB63615A20CA8008AC4B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A95BB63F15A20CA8008AC4B3 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A95BB64215A20CA8008AC4B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SYMROOT = "";
+			};
+			name = Debug;
+		};
+		A95BB64315A20CA8008AC4B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+				SYMROOT = "";
+			};
+			name = Release;
+		};
+		A95BB64515A20CA8008AC4B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A95BB64615A20CA8008AC4B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Developer/SDKs/MacOSX10.7.sdk/System/Library/Frameworks,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A95BB63415A20CA7008AC4B3 /* Build configuration list for PBXProject "KioskMode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A95BB64215A20CA8008AC4B3 /* Debug */,
+				A95BB64315A20CA8008AC4B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A95BB64415A20CA8008AC4B3 /* Build configuration list for PBXNativeTarget "KioskMode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A95BB64515A20CA8008AC4B3 /* Debug */,
+				A95BB64615A20CA8008AC4B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A95BB63115A20CA7008AC4B3 /* Project object */;
+}
